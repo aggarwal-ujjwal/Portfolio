@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles (if any) */
+html {
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+/* Fade-in animation (optional) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
